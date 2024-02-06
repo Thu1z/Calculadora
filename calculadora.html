@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="flex flex-col">
+    <div class="main flex flex-col">
+        <input type="text" id="input" placeholder="0" readonly>
+        <div class="row flex">
+            <button class="button btn-clear" onclick="clean()">C</button>
+            <button class="button btn-clear" onclick="back()">DEL</button>
+            <button class="button btn-opr" onclick="insert('%')">%</button>
+            <button class="button btn-opr" onclick="insert('/')">/</button>
+        </div>
+        <div class="row flex">
+            <button class="button" onclick="insert('7')">7</button>
+            <button class="button" onclick="insert('8')">8</button>
+            <button class="button" onclick="insert('9')">9</button>
+            <button class="button btn-opr" onclick="insert('*')">*</button>
+        </div>
+        <div class="row flex">
+            <button class="button" onclick="insert('4')">4</button>
+            <button class="button" onclick="insert('5')">5</button>
+            <button class="button" onclick="insert('6')">6</button>
+            <button class="button btn-opr" onclick="insert('-')">-</button>
+        </div>
+        <div class="row flex">
+            <button class="button" onclick="insert('1')">1</button>
+            <button class="button" onclick="insert('2')">2</button>
+            <button class="button" onclick="insert('3')">3</button>
+            <button class="button btn-opr" onclick="insert('+')">+</button>
+        </div>
+        <div class="row flex">
+            <button class="button" onclick="insert('0')">0</button>
+            <button class="button" onclick="insert('00')">00</button>
+            <button class="button" onclick="insert('.')">.</button>
+          <button class="button btn-equal" onclick= "calcular()">=</button>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>

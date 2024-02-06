@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    background-color: #121212;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.row{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+}
+.main{
+    margin: 35px;
+    padding: 0px 6px 0;
+    width: 200px;
+    height: 300px;
+    border: 1px solid #fbf7f7;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+.button{
+    width: 46px;
+    height: 31px;
+    border: 1px solid #ff785a;
+    border-radius: 3px;
+    margin:4px 2px;
+    font-size: 15px;
+    padding: 2px;
+    background-color: #feefe5;
+    color: #2f0601;
+    font-weight: 700;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+}
+#input{
+    height: 40px;
+    font-size: 35px;
+    width: 184px;
+    border: 1px solid #feefe5;
+    border-radius: 4px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-right: 2px;
+    background-color: #000;
+    color: #feefe5;
+    padding: 10px 4px;
+}
+#input::placeholder{
+    color: #feefe5;
+}
+
+.btn-clear{
+    background-color: #ed7e23;
+    color: #feefe5;
+    border: 1px solid #feefe5;
+}
+.btn-equal{
+    background-color: #130a59;
+    color: #feefe5;
+    border: 1px solid #feefe5;
+}
+.btn-opr{
+    background-color: #009699;
+    color: #feefe5;
+    border: 1px solid #feefe5;
+}
+
+.button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+.button:active{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+.text-center{
+    text-align: center;
+}
+.bg-red{
+    background-color: red;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-col{
+    flex-direction: column;
+}
